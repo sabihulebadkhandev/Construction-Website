@@ -1,0 +1,112 @@
+$primary-color:#FEE715;
+$secondary-color:#101820;
+$text-color:#101010;
+$text-white:#ffffff;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    font-family: "Outfit", sans-serif;
+}
+
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+
+
+
+header{
+    nav{
+        .nav-link{
+            text-transform: capitalize;
+            color: $text-color;
+            font-size: 1rem;
+            font-weight: 500;
+            margin-left: 20px;
+        }
+        .logo{
+            text-transform: capitalize;
+            color: $text-color;
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-left: 20px;
+            span{
+                color: $primary-color;
+            }
+        }
+    
+    }
+}
+
+.section-1{
+    .hero{
+        background: linear-gradient(to right , rgba(0 ,0 ,0 , 0.8) , rgba(0,0,0,0)) , url('../images/hero.jpg');
+        min-height: 700px;
+        color: $text-white;
+
+        span{
+            color: $primary-color;
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
+}
+.btn-primary{
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: $text-color;
+    &:hover{
+        background-color: $secondary-color;
+    border: 1px solid $secondary-color;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: $primary-color;
+    }
+}
+
+
+.btn-secondary{
+
+    background-color: $secondary-color;
+    border: 1px solid $secondary-color;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    &:hover{
+        background-color: $primary-color;
+        border: 1px solid $primary-color;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: $text-color;
+
+    }
+}
+.section-2{
+    img{
+        border-radius: 10px;
+    }
+    span{
+        color: $primary-color;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
